@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/313781881.svg)](https://zenodo.org/badge/latestdoi/313781881)
+
 # Motivation
 
 We generated this dataset to train a machine learning model for automatically generating psychiatric case notes from doctor-patient conversations. Since, we did have access to real doctor-patient conversations, we used transcripts from two different sources to generate audio recordings of enacted conversations between a doctor and a patient. We employed eight students who worked in pairs to generate these recordings. Six of the transcripts that we used to produce this recordings were hand-written by Cheryl Bristow and rest of the transcripts were adapted from Alexander Street which were generated from real doctor-patient conversations. Our study requires recording the doctor and the patient(s) in seperate channels which is the primary reason behind generating our own audio recordings of the conversations.  
@@ -113,5 +115,6 @@ This project is funded by [CATalyst Gap fund, Fall 2019.](https://www.montana.ed
 
 This dataset is provided "As Is" without warranty of any kind. In no event shall the authors or copyright holders be liable for any claim, damages or other liability. The source transcripts may not be enacted word-to-word as they appear in the transcript. Similarly, we used automatic speech recognition to transcribe the recordings and the transcribed transcripts may not match exactly as the words appear in the audio recordings.
 
+[![DOI](https://zenodo.org/badge/313781881.svg)](https://zenodo.org/badge/latestdoi/313781881)
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
