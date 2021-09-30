@@ -84,7 +84,7 @@ We provided the generated transcripts back to the students and asked them to wri
 | <code>sourceId</code> | Index of the source sentence in the transcript. This property is zero-indexed. |
 | <code>formalText</code> | Modified version of the sentence as it is used in the case note. |
 
-**NOTE:** If a sentnce is used in multiple casenote categories, a record will appear for each use. `"sourceId":"n"` refers to the sentence whose index is `n` in the whole transcript whereas multiple sentences can belong to the same dialogue turn. In the following transcript, `"sourceId":"3"` refers to `sentence_d`:
+**NOTE:** If a sentence is used in multiple casenote categories, a record will appear for each use. `"sourceId":"n"` refers to the sentence whose index is `n` in the whole transcript whereas multiple sentences can belong to the same dialogue turn. In the following transcript, `"sourceId":"3"` refers to `sentence_d`:
 
 ```json
 [
@@ -101,7 +101,11 @@ We provided the generated transcripts back to the students and asked them to wri
 
 ## dataset.pickle
 
-This is a pickle file (protocol version 4) containing all the transcribed transcripts and the casenotes for easy and quick access of the data using python.
+This is a pickle file (protocol version 4) containing all the transcribed transcripts and the casenotes for easy and quick access to the data using python.
+
+# Alternative repository for audio recordings
+
+The audio recordings are also available in [Oxiago Int.](https://oxiago.com/curavoice/dataset/10.5281.4279041/) website.
 
 # Funding
 
@@ -113,7 +117,7 @@ This project is funded by [CATalyst Gap fund, Fall 2019.](https://www.montana.ed
 
 # Disclaimer
 
-This dataset is provided "As Is" without warranty of any kind. In no event shall the authors or copyright holders be liable for any claim, damages or other liability. The source transcripts may not be enacted word-to-word as they appear in the transcript. Similarly, we used automatic speech recognition to transcribe the recordings and the transcribed transcripts may not match exactly as the words appear in the audio recordings.
+This dataset is provided "As Is" without warranty of any kind. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability. The source transcripts may not be enacted word-to-word as they appear in the transcript. Similarly, we used automatic speech recognition to transcribe the recordings and the transcribed transcripts may not match exactly as the words appear in the audio recordings.
 
 [![DOI](https://zenodo.org/badge/313781881.svg)](https://zenodo.org/badge/latestdoi/313781881)
 
